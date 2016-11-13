@@ -2,8 +2,6 @@
 This is an install script for setting up a spark server on a raspberry pi.
 
 # Installation
-In terminal:
-
 git clone https://github.com/IcedMocha/SparkyPi.git
 
 sudo chmod +x ./SparkPi/sparkypi.sh
