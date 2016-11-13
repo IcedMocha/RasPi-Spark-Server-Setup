@@ -10,4 +10,4 @@ cd SparkyPi
 
 chmod +x SparkyPi.sh
 
-SparkyPi.sh
+./SparkyPi.sh
