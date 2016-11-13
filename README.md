@@ -8,9 +8,9 @@ git clone https://github.com/IcedMocha/SparkyPi.git
 
 cd SparkyPi
 
-chmod +x SparkyPi.sh
+sudo chmod +x ./SparkPi/sparkypi.sh
 
-./SparkyPi.sh
+./SparkyPi/sparkypi.sh
 
 # Notes
 This was tested on a fresh install Rapian Jesse on a raspberry pi 3
