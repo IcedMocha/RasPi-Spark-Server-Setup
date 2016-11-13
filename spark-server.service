@@ -1,0 +1,15 @@
+[Unit]
+Description=Spark Server
+
+[Service]
+ExecStart=/usr/local/bin/node /home/pi/spark-server/main.js
+StandardOutput=syslog
+SyslogIdentifier=spark.server
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/home/pi/spark-server
+Restart=on-failure
+RestartSec=30s
+
+[Install]
+WantedBy=multi-user.target
