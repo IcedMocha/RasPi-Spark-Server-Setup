@@ -11,3 +11,6 @@ cd SparkyPi
 chmod +x SparkyPi.sh
 
 ./SparkyPi.sh
+
+# Notes
+This was tested on a fresh install Rapian Jesse on a raspberry pi 3
