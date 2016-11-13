@@ -6,8 +6,6 @@ In terminal:
 
 git clone https://github.com/IcedMocha/SparkyPi.git
 
-cd SparkyPi
-
 sudo chmod +x ./SparkPi/sparkypi.sh
 
 ./SparkyPi/sparkypi.sh
